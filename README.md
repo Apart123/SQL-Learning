@@ -78,12 +78,6 @@
 
 ## 技术选型
 
-本项目采用纯前端实现，不需要任何后端的前置知识~
-
-> Q：为什么采用纯前端实现？
->
-> A：减少攻击风险 + 省钱 + 新的学习尝试
-
 
 
 - 主框架：Vue 3
@@ -158,7 +152,7 @@ import initSqlJs, { Database, SqlJsStatic } from "sql.js";
 /**
  * SQL 执行器
  *
- * @author coder_yupi https://github.com/Apart123
+ * @author coder https://github.com/Apart123
  */
 let SQL: SqlJsStatic;
 
